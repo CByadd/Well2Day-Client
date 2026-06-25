@@ -7,7 +7,7 @@ import UserMenu from '../components/UserMenu'
 import ScreenLogo from '../components/ScreenLogo'
 import { useUserSessionStore } from '../stores/userSessionStore'
 
-const USE_MOCK_PAYMENT_ONLY = true
+const USE_MOCK_PAYMENT_ONLY = false
 
 function PaymentPage({ user, onPaymentSuccess, screenId, serverBase, bmiId }) {
   const { clearUser } = useUserSessionStore()
